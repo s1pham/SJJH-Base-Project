@@ -55,7 +55,7 @@ public class WebController {
     }
     
     @RequestMapping(value = "/cs480/TestCode", method = RequestMethod.GET)
-    String healthCheck() {
+    String testCode() {
         return "TestCode up and running";
     }
 
