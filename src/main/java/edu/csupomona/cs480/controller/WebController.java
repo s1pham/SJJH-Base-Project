@@ -138,5 +138,10 @@ public class WebController {
         modelAndView.addObject("users", listAllUsers());
         return modelAndView;
     }
+    @RequestMapping(value = "/cs480/TestCode", method = RequestMethod.GET)
+    String assignment3String() {
+        return "Sang Pham wrote this.";
+    }
+
 
 }
