@@ -138,7 +138,7 @@ public class WebController {
         modelAndView.addObject("users", listAllUsers());
         return modelAndView;
     }
-    @RequestMapping(value = "/cs480/TestCode", method = RequestMethod.GET)
+    @RequestMapping(value = "/cs480/assignment3", method = RequestMethod.GET)
     String assignment3String() {
         return "Sang Pham wrote this.";
     }
